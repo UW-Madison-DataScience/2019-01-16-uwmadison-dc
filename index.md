@@ -366,30 +366,24 @@ Registration is required and will be available just below, starting at 5:00pm on
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
       <p>
-        The <a href="https://www.sqlite.org/download.html">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows Installer
+        Follow the link to install <a href="https://www.sqlite.org/download.html"> SQLite for Windows
 	</a>
         installs SQLite for Windows.
-        If you used the installer to configure nano, you don't need to run it again.
+	You will also need to install the <a href="http://sqlitebrowser.org/"> DB Browser for SQLite 
+	</a>.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="sql-macosx">macOS</h4>
       <p>
-        SQLite comes pre-installed on macOS.
+        SQLite comes pre-installed on macOS but you will need to install the <a href="http://sqlitebrowser.org/"> DB Browser 		for SQLite </a>.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="sql-linux">Linux</h4>
       <p>
-        SQLite comes pre-installed on Linux.
+        SQLite comes pre-installed on Linux but you will need to install the <a href="http://sqlitebrowser.org/"> DB Browser 		for SQLite.
+	</a>
       </p>
     </div>
   </div>
